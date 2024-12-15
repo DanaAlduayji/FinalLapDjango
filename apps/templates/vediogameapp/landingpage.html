@@ -1,0 +1,11 @@
+{% extends "C:\Users\PCD\OneDrive - جامعة القصيم\Desktop\WEBFinal\djangoenv\FinalLap\apps\templates\vediogameapp\layouts\base.html" %}
+{% load static %}
+{% block content %}
+    <div class="welcome-container">
+        <h1>Welcome to the Game Hub!</h1>
+        <p>We're glad to have you here. Explore and enjoy our collection of games.</p>
+        <a href="{% url 'list-page' %}" class="btn">View Games List</a>
+    </div>
+    <img src="{% static 'vg1.png' %}" alt="Book2 img desc" width="200" height="200">
+
+{% endblock %}
